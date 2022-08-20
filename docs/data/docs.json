@@ -1578,6 +1578,9 @@
       "outputformats": {
         "_merge": "shallow"
       },
+      "outputs": {
+        "_merge": "shallow"
+      },
       "params": {
         "_merge": "deep"
       },

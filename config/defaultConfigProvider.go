@@ -366,7 +366,7 @@ func (c *defaultConfigProvider) determineMergeStrategy(params ...KeyParams) maps
 	// This will be handled as a special case.
 	case "params":
 		strategy = maps.ParamsMergeStrategyDeep
-	case "outputformats", "mediatypes":
+	case "outputformats", "outputs", "mediatypes":
 		if prevIsRoot {
 			strategy = maps.ParamsMergeStrategyShallow
 		}
